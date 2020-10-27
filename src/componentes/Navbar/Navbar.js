@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import{ MenuItems } from "./MenuItems"
+import{ MenuItems } from './MenuItems'
 import './Navbar.css'
+import CartWidget from './CartWidget'
 
 class Navbar extends Component {    
     state = { clicked: false }
@@ -24,6 +25,8 @@ class Navbar extends Component {
                     })}    
 
                 </ul>
+                <CartWidget />
+                
             </nav>
         )
     }

@@ -52,3 +52,8 @@
 .menu-icon {    
     display: none;
 }
+
+.fa-shopping-cart {  
+    font-size: 180%;
+    color: mediumturquoise;
+}
