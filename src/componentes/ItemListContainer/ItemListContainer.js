@@ -1,5 +1,5 @@
 import React from 'react';
 
-const ItemListContainer =_ => <tittle>Lo mejor en tecnologia</tittle>
+const ItemListContainer =_ => <tittle className= "tittle"></tittle>
 
 export default ItemListContainer;
