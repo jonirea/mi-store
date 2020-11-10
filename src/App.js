@@ -5,6 +5,7 @@ import ItemListContainer from './componentes/ItemListContainer/ItemListContainer
 import ItemCount from './componentes/ItemCount/ItemCount';
 import CelusContainer from './componentes/ItemListContainer/ItemDetailCointainer'
 import CelusDetail from './componentes/ItemListContainer/ItemDetail'
+import CelContainer from './componentes/ItemListContainer/ItemListContainer'
  
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
     />
     <CelusContainer />
     <CelusDetail />
+    <CelContainer />
     </div>
   );
 }
